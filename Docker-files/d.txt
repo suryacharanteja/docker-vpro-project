@@ -1,0 +1,11 @@
+ssh -i "DockerServerT2m.pem" ubuntu@ec2-3-108-223-24.ap-south-1.compute.amazonaws.com
+
+
+
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+
+
+gh onetimecode  
+ 7D05-7A70
